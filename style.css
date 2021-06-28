@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.screen
+{
+    background: url(apple\ background-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.screen i
+{
+    font-size: 25px;
+}
+.screen #app
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.screen #pop
+{
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    width: 65px;
+    padding: 1px;
+    /* border: 1px solid black; */
+    flex-flow: nowrap;
+}
+#nav1
+{
+    text-align: center;
+    justify-content: center;
+}
+#nav1 #cam
+{
+    padding: 5px;
+    font-size: 14px;
+}
+#nav1 #hg
+{
+    margin-right: 5px;
+    font-size: 14px;
+}
+#nav1 #mic
+{
+    padding: 5px;
+    font-size: 14px;
+}
+#nav1 input 
+{
+    padding:1px;
+    background-color: transparent;
+    border: none;
+}
+#nav1
+{
+    border: 1px solid black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(7, 7, 7, 0.24);
+}
+.cont
+{
+    padding-top: 40vh;
+}
