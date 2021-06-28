@@ -10,6 +10,10 @@
     background-size: cover;
     height: 100vh;
 }
+#pop i
+{
+    font-size: 35px;
+}
 .screen i
 {
     font-size: 25px;
@@ -24,9 +28,9 @@
     display: inline-block;
     margin-top: 10px;
     text-align: center;
-    width: 65px;
+    width: 80spx;
     padding: 1px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     flex-flow: nowrap;
 }
 #nav1
