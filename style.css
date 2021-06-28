@@ -31,7 +31,7 @@
     text-align: center;
     width: 68px;
     padding: 1px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-flow: nowrap;
 }
 #nav1
