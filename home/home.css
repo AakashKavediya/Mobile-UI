@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    display: inline-block;
+    text-align: center;
+}
+nav i
+{
+    font-size: 25px;
+}
+nav a
+{
+    color: black;
+    text-decoration: none;
+}
+input
+{
+    background-color: rgba(0, 0, 0, 0.144);
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+}
+.search
+{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
