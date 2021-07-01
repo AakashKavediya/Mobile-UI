@@ -30,7 +30,8 @@ nav i
 }
 nav a
 {
-    color: black;
+    color: whitesmoke;
+    margin-top: 5px;
     text-decoration: none;
 }
 input
