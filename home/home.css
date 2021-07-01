@@ -8,13 +8,25 @@ nav
 {
     display: inline-block;
     text-align: center;
-    width: 60px;
+    width: 70px;
     margin-top: 10px;
-    margin-left: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all
+{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    background:url(data:image/jpeg;base64,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) no-repeat center;
+    background-size: cover;
 }
 nav i
 {
-    font-size: 25px;    
+    font-size: 25px;   
+    padding: 5px; 
 }
 nav a
 {
@@ -26,12 +38,234 @@ input
     background-color: rgba(0, 0, 0, 0.144);
     border: none;
     border-radius: 10px;
-    padding: 3px;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
+}
+.search i
+{
+    float:right;
+    margin-right: 8px;
+    margin-left: 3px;
 }
 .search
 {
     padding-top: 10px;
     margin-bottom: 10px;
 }
+.color
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.425);
+
+}
+#play
+{
+    color: whitesmoke;
+    background-color:   #72FCFF;
+    border-radius: 10px;
+}
+#video  
+{
+    color: whitesmoke;
+    background-color: #72FCFF;
+    border-radius: 10px;
+}
+#add
+{
+    color: whitesmoke;
+    background-color: #72FCFF;
+    border-radius: 10px;
+}
+#phone
+{
+    color: whitesmoke;
+    background-color: #72FCFF;
+    border-radius: 10px;
+}
+#Album
+{
+    color: whitesmoke;
+    background-color: #59F6FF;
+    border-radius: 10px;
+}
+#camera
+{
+    color: whitesmoke;
+    background-color: #59F6FF;
+    border-radius: 10px;
+}
+#clock
+{
+    color: whitesmoke;
+    background-color: #59F6FF;
+    border-radius: 10px;
+}
+#face
+{
+    color: whitesmoke;
+    background-color: #59F6FF;
+    border-radius: 10px;
+}
+#calculator
+{
+    color: whitesmoke;
+    background-color: #23FFFB;
+    border-radius: 10px;
+}
+#message
+{
+    color: whitesmoke;
+    background-color: #23FFFB;
+    border-radius: 10px;
+}
+#Internet
+{
+    color: whitesmoke;
+    background-color: #23FFFB;
+    border-radius: 10px;
+}
+#firefox
+{
+    color: whitesmoke;
+    background-color: #23FFFB;
+    border-radius: 10px;
+}
+#calender
+{
+    color: whitesmoke;
+    background-color: #00EDFF;
+    border-radius: 10px;
+}
+#setting
+{
+    color: whitesmoke;
+    background-color: #00EDFF;
+    border-radius: 10px;
+}
+#discort
+{
+    color: whitesmoke;
+    background-color: #00EDFF;
+    border-radius: 10px;
+}
+#instagram
+{
+    color: whitesmoke;
+    background-color: #00EDFF;
+    border-radius: 10px;
+}
+#facebook
+{
+    color: whitesmoke;
+    background-color: #30E0FF;
+    border-radius: 10px;
+}
+#twitter
+{
+    color: whitesmoke;
+    background-color: #30E0FF;
+    border-radius: 10px;
+}
+#messag
+{
+    color: whitesmoke;
+    background-color: #30E0FF;
+    border-radius: 10px;
+}
+#whatapp
+{
+    color: whitesmoke;
+    background-color: #30E0FF;
+    border-radius: 10px;
+}
+#google
+{
+    color: whitesmoke;
+    background-color: #0ADAFF;
+    border-radius: 10px;
+}
+#plus
+{
+    color: whitesmoke;
+    background-color: #0ADAFF;
+    border-radius: 10px;
+}
+#wallet
+{
+    color: whitesmoke;
+    background-color: #0ADAFF;
+    border-radius: 10px;
+}
+#pay
+{
+    color: whitesmoke;
+    background-color: #0ADAFF;
+    border-radius: 10px;
+}
+#drive
+{
+    color: whitesmoke;
+    background-color: #11CBFF;
+    border-radius: 10px;
+}
+#meet
+{
+    color: whitesmoke;
+    background-color: #11CBFF;
+    border-radius: 10px;
+}
+#telegram
+{
+    color: whitesmoke;
+    background-color: #11CBFF;
+    border-radius: 10px;
+}
+#zoom
+{
+    color: whitesmoke;
+    background-color: #11CBFF;
+    border-radius: 10px;
+}
+#amazon
+{
+    color: whitesmoke;
+    background-color: #00A9FF;
+    border-radius: 10px;
+}
+#apay
+{
+    color: whitesmoke;
+    background-color: #00A9FF;
+    border-radius: 10px;
+}
+#visa
+{
+    color: whitesmoke;
+    background-color: #00A9FF;
+    border-radius: 10px;
+}
+#taka
+{
+    color: whitesmoke;
+    background-color: #00A9FF;
+    border-radius: 10px;
+}
+#opera
+{
+    color: whitesmoke;
+    background-color: #009DFF;
+    border-radius: 10px;
+}
+#window
+{
+    color: whitesmoke;
+    background-color: #009DFF;
+    border-radius: 10px;
+}
+
