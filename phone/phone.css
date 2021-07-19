@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr
+{
+    visibility: collapse;
+}
+button
+{
+    padding: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background-color: rgb(243, 243, 243);
+}
+#star
+{
+    padding-left: 9.2px;
+    padding-right: 9.2px;
+}
+.button
+{
+    text-align: center;
+    margin-top: 50vh;
+}
+#search
+{
+    float: right;
+    margin-right: 8px;
+    margin-top: -2px;
+}
+#dot
+{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+.bottom
+{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+#call
+{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 5px;
+    width: 60px;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(78, 247, 78);
+}
+#cut
+{
+    color: rgb(209, 209, 209);
+}
