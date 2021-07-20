@@ -15,16 +15,26 @@ button
     margin-right: 8px;
     text-align: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 45px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    background-color: rgb(243, 243, 243);
+    background-color: transparent;
+    border: none;
+    transition: .5s;
+    flex-direction: row;
+}
+button:hover
+{
+    color: rgb(233, 233, 233);
+    font-style: italic;
 }
 #star
 {
-    padding-left: 9.2px;
-    padding-right: 9.2px;
+    padding-left: 8.2px;
+    padding-right: 8.2px;
+    font-size: 50px;
+    padding-top: 2px;
 }
 .button
 {
@@ -51,14 +61,37 @@ button
 }
 #call
 {
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 5px;
     width: 60px;
     border-radius: 15px;
     color: whitesmoke;
     text-align: center;
     background-color: rgb(78, 247, 78);
+}
+.alll
+{
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: black; */
+    background: url(https://i.pinimg.com/originals/2a/a7/8a/2aa78a2c8fbe91b37bfed0fbb32fae82.jpg) no-repeat center;
+    color: whitesmoke;
+}
+.but
+{
+    display: inline-block ;
+}
+#b2, #b5, #b8, #b11
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+a
+{
+    color: whitesmoke;
 }
 #cut
 {
